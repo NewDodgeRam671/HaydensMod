@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.newdodgeram.haydensmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "HaydensModMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

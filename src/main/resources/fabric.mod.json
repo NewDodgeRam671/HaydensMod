@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "haydensmod",
+  "version": "${version}",
+
+  "name": "Hayden's Mod",
+  "description": "A configurable collection of mods that I think make the game more enjoyable!",
+  "authors": [
+    "NewDodgeRam"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.newdodgeram.haydensmod.HaydensMod"
+    ],
+    "client": [
+      "net.newdodgeram.haydensmod.HaydensModClient"
+    ]
+  },
+  "mixins": [
+    "haydensmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
