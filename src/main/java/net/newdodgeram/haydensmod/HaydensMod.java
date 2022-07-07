@@ -1,6 +1,7 @@
 package net.newdodgeram.haydensmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.newdodgeram.haydensmod.block.ModBlocks;
 import net.newdodgeram.haydensmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class HaydensMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

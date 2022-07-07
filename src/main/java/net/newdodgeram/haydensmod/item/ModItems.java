@@ -2,7 +2,6 @@ package net.newdodgeram.haydensmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.newdodgeram.haydensmod.HaydensMod;
@@ -10,9 +9,9 @@ import net.newdodgeram.haydensmod.HaydensMod;
 public class ModItems {
 
     public static final Item GOLEM_HEART = registerItem("golem_heart",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.GOLEMS)));
     public static final Item GOLEMS_BLOOM = registerItem("golems_bloom",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.GOLEMS)));
 
 
 

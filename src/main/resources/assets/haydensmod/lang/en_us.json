@@ -1,4 +1,8 @@
 {
   "item.haydensmod.golem_heart": "Golem Heart",
-  "item.haydensmod.golems_bloom": "Golem's Bloom"
+  "item.haydensmod.golems_bloom": "Golem's Bloom",
+
+  "block.haydensmod.haydonium_block": "Block of Haydonium",
+
+  "itemGroup.haydensmod.golems": "Golems"
 }
