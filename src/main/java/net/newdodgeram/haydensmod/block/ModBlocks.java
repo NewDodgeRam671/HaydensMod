@@ -10,10 +10,14 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.newdodgeram.haydensmod.HaydensMod;
+import net.newdodgeram.haydensmod.block.custom.JumpyBlock;
 import net.newdodgeram.haydensmod.item.ModItemGroup;
 
 public class ModBlocks {
-    public static final Block HAYDONIUM_BLOCK = registerBlock("haydonium_block", new Block(FabricBlockSettings.of(Material.MOSS_BLOCK).strength(1f)), ModItemGroup.GOLEMS);
+    public static final Block HAYDONIUM_BLOCK = registerBlock("haydonium_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.GOLEMS);
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.GOLEMS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

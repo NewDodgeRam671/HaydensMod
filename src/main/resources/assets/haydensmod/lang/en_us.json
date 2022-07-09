@@ -1,8 +1,10 @@
 {
   "item.haydensmod.golem_heart": "Golem Heart",
   "item.haydensmod.golems_bloom": "Golem's Bloom",
+  "item.haydensmod.eight_ball": "8-Ball",
 
   "block.haydensmod.haydonium_block": "Block of Haydonium",
+  "block.haydensmod.jumpy_block": "Jumpy Block",
 
   "itemGroup.haydensmod.golems": "Golems"
 }
