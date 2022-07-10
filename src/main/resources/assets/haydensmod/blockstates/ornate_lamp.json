@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model":  "haydensmod:block/ornate_lamp_on"},
+    "lit=false": { "model":  "haydensmod:block/ornate_lamp_off"}
+  }
+}

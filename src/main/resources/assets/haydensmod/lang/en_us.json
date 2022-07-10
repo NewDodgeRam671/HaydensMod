@@ -2,9 +2,13 @@
   "item.haydensmod.golem_heart": "Golem Heart",
   "item.haydensmod.golems_bloom": "Golem's Bloom",
   "item.haydensmod.eight_ball": "8-Ball",
+  "item.haydensmod.eggplant_seeds": "Eggplant Seeds",
+  "item.haydensmod.eggplant": "Eggplant",
 
   "block.haydensmod.haydonium_block": "Block of Haydonium",
   "block.haydensmod.jumpy_block": "Jumpy Block",
+  "block.haydensmod.ornate_lamp": "Ornate Lamp",
+  "block.haydensmod.eggplant_crop": "Eggplant Crop",
 
   "itemGroup.haydensmod.golems": "Golems"
 }
