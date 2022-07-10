@@ -1,14 +1,12 @@
 package net.newdodgeram.haydensmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.FoodComponents;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.newdodgeram.haydensmod.HaydensMod;
 import net.newdodgeram.haydensmod.block.ModBlocks;
+import net.newdodgeram.haydensmod.entity.ModEntities;
 import net.newdodgeram.haydensmod.item.custom.EightBallItem;
 
 public class ModItems {
@@ -24,8 +22,9 @@ public class ModItems {
     public static final Item EGGPLANT = registerItem("eggplant",
             new Item(new FabricItemSettings().group(ModItemGroup.GOLEMS)
                     .food(new FoodComponent.Builder().hunger(4).saturationModifier(4).build())));
-
-
+    public static final Item MOUNTAIN_GOLEM_SPAWN_EGG = registerItem("mountain_golem_spawn_egg",
+            new SpawnEggItem(ModEntities.MOUNTAIN_GOLEM, 0x868188, 0x3f7637,
+            new FabricItemSettings().group(ModItemGroup.GOLEMS).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {
