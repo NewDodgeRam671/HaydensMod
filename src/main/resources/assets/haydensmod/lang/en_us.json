@@ -11,5 +11,11 @@
   "block.haydensmod.ornate_lamp": "Ornate Lamp",
   "block.haydensmod.eggplant_crop": "Eggplant Crop",
 
+  "block.haydensmod.wyrmwood_log": "Wyrmwood Log",
+  "block.haydensmod.wyrmwood_wood": "Wyrmwood",
+  "block.haydensmod.stripped_wyrmwood_log": "Stripped Wyrmwood Log",
+  "block.haydensmod.stripped_wyrmwood_wood": "Stripped Wyrmwood",
+  "block.haydensmod.wyrmwood_planks": "Wyrmwood Planks",
+
   "itemGroup.haydensmod.golems": "Golems"
 }

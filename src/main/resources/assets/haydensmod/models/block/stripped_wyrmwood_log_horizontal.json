@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "haydensmod:block/stripped_wyrmwood_top",
+    "side": "haydensmod:block/stripped_wyrmwood_log"
+  }
+}

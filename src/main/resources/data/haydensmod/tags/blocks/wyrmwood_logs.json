@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "haydensmod:wyrmwood_log",
+    "haydensmod:wyrmwood_wood",
+    "haydensmod:stripped_wyrmwood_log",
+    "haydensmod:stripped_wyrmwood_wood"
+  ]
+}
