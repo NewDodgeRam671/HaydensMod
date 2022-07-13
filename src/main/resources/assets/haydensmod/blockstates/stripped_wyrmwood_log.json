@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "haydensmod:block:stripped_wyrmwood_log_horizontal",
+      "model": "haydensmod:block/stripped_wyrmwood_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "haydensmod:block:stripped_wyrmwood_log"
+      "model": "haydensmod:block/stripped_wyrmwood_log"
     },
     "axis=z": {
-      "model": "haydensmod:block:stripped_wyrmwood_log_horizontal",
+      "model": "haydensmod:block/stripped_wyrmwood_log_horizontal",
       "x": 90
     }
   }
